@@ -1,0 +1,19 @@
+let firstName = "Vignesh";
+console.log(firstName);
+console.log (typeof firstName);
+
+let lastName = "rajendran";
+console.log(lastName);
+console.log(typeof lastName);
+
+let mobileNumber = 1245678;
+console.log(mobileNumber);
+console.log(typeof mobileNumber);
+
+let isAutomation = true;
+console.log(typeof isAutomation);
+
+let hasPlaywright ;
+console.log(hasPlaywright);
+console.log(typeof hasPlaywright);
+
