@@ -1,0 +1,26 @@
+function studentsGrade(score){
+let grade;
+ switch(true){
+    case(score>90):
+    console.log("you are first class ");
+    grade = "A+";
+    break;
+    case(score>50&& score < 90):
+    console.log("you are second class ");
+    grade = "B+";
+    break;
+    default :
+    console.log("you are fail ");
+    grade = "F";
+    break;
+ 
+
+ }
+  return grade;
+
+}
+
+let studentsMark = 80;
+let result = studentsGrade(studentsMark);
+
+console.log("Your grade is "+ result );
